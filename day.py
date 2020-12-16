@@ -10,7 +10,7 @@ if len(sys.argv) > 2:
     sys.exit(1)
 
 directory = str(sys.argv[1])
-parent_dir = "/home/adam/adventofcode"
+parent_dir = "/home/adam/adventofcode2020"
 path = os.path.join(parent_dir, directory)
 
 os.mkdir(path)
